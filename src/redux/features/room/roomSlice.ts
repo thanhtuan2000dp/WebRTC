@@ -9,7 +9,6 @@ const roomSlice = createSlice({
     initialState,
     reducers: {
         setIsHostRoom(state, action: PayloadAction<boolean>) {
-            console.log(state, action);
             state.isHostRoom = action.payload;
         },
     },
